@@ -36,12 +36,12 @@
   &::before {
     content: "";
     height: 0.25rem;
-    width: 9rem;
+    width: 7rem;
     background-color: $golden;
     //positioning
     position: absolute;
-    top: 100%;
+    top: 120%;
     left: 50%;
-    margin-left: -4.5rem;
+    margin-left: -3.5rem;
   }
 }
