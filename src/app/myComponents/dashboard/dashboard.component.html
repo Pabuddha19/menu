@@ -1,0 +1,37 @@
+<div class="header">
+    <h1 class="heading text-center">Our Menu</h1>
+</div>
+
+<div class=" row lists d-flex justify-content-around align-items-center">
+
+    <nav class=" col-4  pt-5  d-flex justify-content-around  ">
+        <li (click)="allData()"> ALL</li>
+
+        <li (click)="otherData('breakfast')">BreakFast</li>
+
+        <li (click)="otherData('lunch')">Lunch</li>
+        <li (click)="otherData('shakes')"> Shakes</li>
+    </nav>
+
+</div>
+
+
+
+<!-- <div class="item d-flex justify-content--between">
+    <div class="pic">
+<img src="https://react-projects-5-menu.netlify.app/images/item-3.jpeg" alt="Godzilla Milkshake">
+    </div>
+    <div class="description">
+        <div class="title d-flex justify-content--between">
+            <div class="item-name">
+                Godzilla Milkshake
+            </div>
+            <div class="price">$15</div>
+        </div>
+        <div class="item">
+            ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.
+        </div>
+    </div>
+</div> -->
+
+<app-card [dataToDisplay]="dataToDisplay"></app-card>
